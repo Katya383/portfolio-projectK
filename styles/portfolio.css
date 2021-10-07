@@ -43,7 +43,7 @@ body {
   color: #272142;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -83,6 +83,28 @@ body {
 .project-description {
   padding: 120px 60px;
 }
+.nav {
+  padding: 20px 0;
+}
+.nav li {
+  display: inline;
+  list-style: none;
+}
+.nav li a {
+  text-decoration: none;
+  color: var(--branding-color);
+  line-height: 42px;
+  margin-left: 15px;
+}
+.logo {
+  max-height: 40px;
+}
+.active {
+  color: var(--branding-color) !important;
+}
+.nav-item {
+  padding: 0 10px;
+}
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
@@ -109,29 +131,9 @@ body {
   .img-fluid {
     border-radius: 16px;
   }
-  .logo {
-    max-width: 150px;
-  }
-  nav {
-    padding: 20px 0;
-  }
-  nav ul {
-    padding: 0;
-    margin: 0;
-  }
-  nav li {
-    display: inline;
-    list-style: none;
-    line-height: 42px;
-    margin-left: 15px;
-  }
   nav a {
     text-decoration: none;
     color: #272142;
     transition: all 100ms ease-in-out;
-  }
-  nav a:hover,
-  nav li.active a {
-    color: var(--branding-color);
   }
 }
