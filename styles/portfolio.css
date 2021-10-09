@@ -108,6 +108,9 @@ body {
 .nav-item {
   padding: 0 10px;
 }
+footer {
+  margin: 60px 0;
+}
 footer .email-link {
   text-decoration: none;
   color: black;
@@ -139,7 +142,7 @@ footer .contact-box {
   margin-top: 30px;
   border-radius: 10px;
 }
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   .project-description {
     padding: 0;
     text-align: center;
@@ -148,9 +151,9 @@ footer .contact-box {
     font-size: 12px;
     margin-left: 5px;
   }
-  .hero h1 {
+  h1 {
     font-size: 44px;
-    line-height: 1.4;
+    line-height: 1.5;
   }
   h2 {
     font-size: 44px;
@@ -169,5 +172,9 @@ footer .contact-box {
     text-decoration: none;
     color: #272142;
     transition: all 100ms ease-in-out;
+  }
+  .content {
+    text-align: center;
+    padding: 0;
   }
 }
